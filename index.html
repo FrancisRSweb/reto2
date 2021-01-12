@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="favicon/x-icon" href="img/geek.PNG">
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="js/main.js"></script>
+    <title>RETO 2</title>
+</head>
+
+<body>
+    <!-- Inicio de la cabecera -->
+    <header id="header">
+        <div class="wrap">
+            <div id="logo">
+                <span class="gear">S</span>
+                <h3>CESTA</h3>
+            </div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="https://github.com/FrancisRS92" target="_blank">TRABAJOS PERSONALES</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <!--Fin de la cabecera-->
+
+
+    <section class="wrap wrap-content">
+        <section id="info">
+            <!--INICIO BANNER-->
+            <div id="banner">
+                <h1>FRANCISCO RUIZ SANCHEZ WEB</h1>
+            </div>
+            <!--FIN BANNER-->
+
+
+        <!--INICIO BARRA LATERAL-->
+        <aside id="lateral">
+            <h3>BUSCAR</h3>
+
+            <div id="search" class="aside-box">
+                <form>
+                    <input type="text" />
+                    <input type="button" value="L" class="icon" />
+                </form>
+            </div>
+
+            <h3>LOGIN</h3>
+            <div id="login" class="aside-box">
+                <form>
+                    <label id="user" class="icon">U</label>
+                    <input type="email" />
+
+                    <label id="password" class="icon">w</label>
+                    <input type="password" />
+
+                    <input type="submit" value="Entrar" />
+                    <input type="reset" value="Limpiar" />
+
+                    <a href="#">Registrate aqui</a>
+                    <a href="#">¿Has olvidado tu contraseña?</a>
+                </form>
+            </div>
+
+            <h3>REDES SOCIALES</h3>
+            <div id="social" class="aside-box">
+                <div class="twitter">
+                    <a href="#" class="icon">t</a>
+                    <p class="overlay">
+                        twitter
+                    </p>
+                </div>
+                <div class="youtube">
+                    <a href="#" class="icon">y</a>
+                    <p class="overlay">
+                        Youtube
+                    </p>
+                </div>
+                <div class="facebook" class="icon">
+                    <a href="#">f</a>
+                    <p class="overlay">
+                        Facebook
+                    </p>
+                </div>
+
+            
+        </aside>
+
+        <!--FIN BARRA LATERAL-->
+
+        <!-- INICIO ARTICULOS-->
+        <section id="articles">
+            <h2>Carrito de la compra</h2>
+            <div class="clearfix"></div>
+            <div class="row">
+                <!-- Elementos generados a partir del JSON -->
+                <main id="items" class="col-sm-8 row"></main>
+                <!-- Carrito -->
+                <aside class="col-sm-4">
+                    
+                    <!-- Elementos del carrito -->
+                    <ul id="carrito" class="list-group"></ul>
+                    <hr>
+                    
+                    
+                </aside>
+            </div>
+            
+            
+
+        </section>
+        <section class="section">
+            <table class="mostrador">
+                <tr>
+                    <td ondrop="drop(event)" ondragover="allowDrop(event)" id="table_td"> <small id="mostrador" class="etiqueta"><img class="imagen_fruta" src="./img/chuleta.png" draggable="true" ondragstart="drag(event)" id="chuleta"> $2,50 € </small></td>
+                    <td ondrop="drop(event)" ondragover="allowDrop(event)" id="table_td"> <small id="mostrador" class="etiqueta"><img class="imagen_fruta" src="./img/chorizo.png" draggable="true" ondragstart="drag(event)" id="chorizo"> $1,50 €  </small></td>
+                    <td ondrop="drop(event)" ondragover="allowDrop(event)" id="table_td"> <small id="mostrador" class="etiqueta"><img class="imagen_fruta" src="./img/panceta.png" draggable="true" ondragstart="drag(event)" id="panceta"> $3,00 €  </small></td>
+                    <td ondrop="drop(event)" ondragover="allowDrop(event)" id="table_td"> <small id="mostrador" class="etiqueta"><img class="imagen_fruta" src="./img/costilla.png" draggable="true" ondragstart="drag(event)" id="costilla"> $5,50 €  </small></td>
+                </tr>
+                <tr>
+                    <td ondrop="drop(event)" ondragover="allowDrop(event)" id="table_td"> <small id="mostrador" class="etiqueta"><img class="imagen_fruta" src="./img/manzana.png" draggable="true" ondragstart="drag(event)" id="manzana"> $2,50 €  </small></td>
+                    <td ondrop="drop(event)" ondragover="allowDrop(event)" id="table_td"> <small id="mostrador" class="etiqueta"><img class="imagen_fruta" src="./img/pera.png" draggable="true" ondragstart="drag(event)" id="pera"> $1,20 € </small></td>
+                    <td ondrop="drop(event)" ondragover="allowDrop(event)" id="table_td"> <small id="mostrador" class="etiqueta"><img class=" imagen_fruta " src="./img/kiwi.png " draggable="true " ondragstart="drag(event) " id="Kiwi">$2,50 €</small></td>
+                    <td ondrop="drop(event)" ondragover="allowDrop(event)" id="table_td"> <small id="mostrador" class="etiqueta"><img class="imagen_fruta" src="./img/plantano.png" draggable="true" ondragstart="drag(event)" id="plantano"> $2,50 €  </small></td>
+    
+                </tr>
+                <tr>
+                    <td ondrop="drop(event)" ondragover="allowDrop(event)" id="table_td"> <small id="mostrador" class="etiqueta"><img class="imagen_fruta" src="./img/calamar.png" draggable="true" ondragstart="drag(event)" id="calamar"> $11,90 €  </small></td>
+                    <td ondrop="drop(event)" ondragover="allowDrop(event)" id="table_td"> <small id="mostrador" class="etiqueta"><img class="imagen_fruta" src="./img/mejillon.png" draggable="true" ondragstart="drag(event)" id="mejillon"> $2,50 €  </small></td>
+                    <td ondrop="drop(event)" ondragover="allowDrop(event)" id="table_td"> <small id="mostrador" class="etiqueta"><img class="imagen_fruta" src="./img/pez.png" draggable="true" ondragstart="drag(event)" id="pez"> $6,50 €  </small></td>
+                    <td ondrop="drop(event)" ondragover="allowDrop(event)" id="table_td"> <small id="mostrador" class="etiqueta"><img class="imagen_fruta" src="./img/gamba.png" draggable="true" ondragstart="drag(event)" id="gamba"> $21,50 €  </small></td>
+                </tr>
+                <tr>
+                    <td ondrop="drop(event)" ondragover="allowDrop(event)" id="table_td"> <small id="mostrador" class="etiqueta"><img class="imagen_fruta" src="./img/verdu.png" draggable="true" ondragstart="drag(event)" id="verdu"> $2,00 €  </small></td>
+                    <td ondrop="drop(event)" ondragover="allowDrop(event)" id="table_td"> <small id="mostrador" class="etiqueta"><img class="imagen_fruta" src="./img/pepino.png" draggable="true" ondragstart="drag(event)" id="pepino"> $3,50 €  </small></td>
+                    <td ondrop="drop(event)" ondragover="allowDrop(event)" id="table_td"> <small id="mostrador" class="etiqueta"><img class="imagen_fruta" src="./img/tomate.png" draggable="true" ondragstart="drag(event)" id="tomate"> $1,50 €  </small></td>
+                    <td ondrop="drop(event)" ondragover="allowDrop(event)" id="table_td"> <small id="mostrador" class="etiqueta"><img class="imagen_fruta" src="./img/ensalada.png" draggable="true" ondragstart="drag(event)" id="ensalada"> $3,50 €  </small></td>
+    
+                </tr>
+    
+            </table>
+    
+        </section>
+        <aside class="aside">
+            <h4 class="titulo_carrito">Añadir a la Cesta</h4>
+    
+            <div class="carrito">
+                <div id="carrito" class="carrito_fruta" ondrop="drop(event)" ondragover="allowDrop(event)">
+                </div>
+            </div>
+    
+            <div class="descripcion_carrito">
+                <table class="tabla_carrito" id="tabla_carrito">
+                    <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Cantidad</th>
+                        <th>Precio Kg</th>
+                        <th></th>
+                    </tr>
+                    </thead>
+                    <tbody id="tabla_body">
+                    </tbody>
+                </table>
+            </div>
+    
+            <div class="total_carrito">
+                <p> TOTAL €<small class="total_carrito_precio" id="total_carrito_precio"> 0 </small></p>
+            </div>
+    
+        </aside>
+
+        <!--FIN ARTICULOS-->
+    </section>
+
+    
+</body>
+
+</html>
